@@ -1,0 +1,59 @@
+/*All styling done below*/
+
+/*General Sectioning*/
+html {
+	font-family: "Courier New", monospace;
+	background-color: lightblue;
+}
+
+p {
+	color:blue;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+a {
+	color:blue;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+	color:white;
+}
+
+li {
+	display: inline-block;
+	margin: 3px 3%;
+}
+
+/*Classes*/
+section.pic_row{
+	width: 65%;
+	margin: 0px auto;
+}
+
+img.img{
+	width: 295px;
+	height: 195px;
+	margin: 10px 5px 10px 10px;
+}
+
+/*I.D.'s*/
+#page {
+	width: 80%;
+	margin: 25px auto;
+	text-align: center;
+}
+
+#row1 {
+	display: inline-block;
+}
+
+#row2 {
+	display: inline-block;
+}
